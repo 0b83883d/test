@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T08:26:09.335Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="aLveoc2-HwdvT17arfN_" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-18T08:36:02.277Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="25l1bp2KMnGX-3cbls9E" version="14.6.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="908" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,13 +16,13 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="2. Inserts record into DB (outbox table)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.289;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="2. Inserts record into DB (&#39;Outbox&#39; table)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.289;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="198" as="sourcePoint" />
             <mxPoint x="413" y="198.08000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="callback" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=-0.4;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8Y5LIZ6gn6bbtvrJDmCJ-4" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="3. Selects available records&#xa;and mark them in-progress" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=-0.4;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8Y5LIZ6gn6bbtvrJDmCJ-4" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="645" y="254.5" as="sourcePoint" />
             <mxPoint x="460" y="255" as="targetPoint" />
